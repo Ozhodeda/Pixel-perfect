@@ -4,5 +4,11 @@
 @import 'setup/mixins';
 @import 'setup/functions';
 
+// BASICS
+@import 'base/base';
+
 // COMPONENTS
 @import 'cmp/_AppHeader';
+@import 'cmp/MainHome';
+@import 'cmp/ExplainHome';
+@import 'cmp/ReviewHome';
