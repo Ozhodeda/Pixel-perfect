@@ -1,0 +1,33 @@
+.app-header {
+    background: $clrPrimary1;
+    color: $clrPrimary3;
+    padding: em(16px);
+    font-family: 'Livvic', sans-serif;
+
+    display: flex;
+    justify-content: space-around;
+
+
+    .flex-start {
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-end {
+        display: flex;
+        align-items: center;
+    }
+
+    .link {
+        @include navLink();
+        padding: em(40px)
+    }
+
+    .contact {
+       
+        border: 2px solid $clrPrimary3; /* Adjust the border properties as needed */
+        padding: 5px 40px; /* Add padding to create space around the text */
+        border-radius: 80px;
+    }
+
+}

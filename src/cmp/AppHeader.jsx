@@ -5,12 +5,17 @@ export function AppHeader() {
 
     return (
         <header className="app-header full">
-            <img src={Logo} alt="React Logo" />
-            <nav>
-                <NavLink to="/">Home</NavLink> |
-                <NavLink to="/about">About</NavLink> |
-                <NavLink to="/contact">Contact</NavLink> |
-            </nav>
+            <div className="flex-start">
+                <img src={Logo} alt="React Logo" />
+                <nav>
+                    <NavLink to="/" className='link'>home</NavLink>
+                    <NavLink to="/about" className='link'>about</NavLink>
+                </nav>
+            </div>
+            <div className="flex-end">
+                <NavLink to="/contact" className='link contact'>contact us</NavLink>
+            </div>
         </header>
+
     )
 }
