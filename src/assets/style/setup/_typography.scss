@@ -1,4 +1,14 @@
 @font-face {
-    @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap');
-    font-family: 'Livvic', sans-serif;
+    font-family: Livvic - Semi Bold;
+    src: url(../../../../public/fonts/Livvic/Livvic-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Livvic - Bold;
+    src: url(../../../../public/fonts/Livvic/Livvic-Bold.ttf);
+}
+
+@font-face {
+    font-family: Livvic- MediumItalic;
+    src: url(../../../../public/fonts/Livvic/Livvic-MediumItalic.ttf);
 }

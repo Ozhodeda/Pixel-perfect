@@ -1,7 +1,7 @@
 .app-header {
     background: $clrPrimary1;
     color: $clrPrimary3;
-    padding: em(16px);
+    padding: $layoutPadding;
     font-family: 'Livvic', sans-serif;
 
     display: flex;
