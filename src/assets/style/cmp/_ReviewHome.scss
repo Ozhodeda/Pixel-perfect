@@ -1,0 +1,59 @@
+.review-home {
+    background: $clrSecondary3;
+    padding: $layoutPadding;
+
+    .h1-review {
+        color: $clrPrimary3;
+        font-family: Livvic - Bold;
+        font-size: 48px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 48px;
+        text-align: center;
+
+        span {
+            color: $clrSecondary1;
+        }
+    }
+
+    .review-container {
+        display: flex;
+    }
+
+    .Insults {
+        width: 67px;
+        height: 56px;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+
+        .p-review {
+            color: $clrPrimary3;
+            font-family: Livvic - Semi Bold;
+            background-image: url('../../imgs/insults.png'); /* Set the path to your Insults image */
+            background-repeat: no-repeat;
+            background-position: left center; /* Adjust as needed */
+            padding-left: 80px; /* Adjust as needed to create space for the image */
+            margin-left: -80px; /* Offset the text to make room for the image */
+            
+        }
+
+        .h4-review {
+            color: $clrSecondary1;
+            font-family: Livvic - Bold;
+        }
+
+        .p-jobPosition {
+            color: $clrPrimary3;
+            font-family: Livvic- MediumItalic;
+        }
+
+        .img-avatar {
+            @include avatar;
+        }
+    }
+}
